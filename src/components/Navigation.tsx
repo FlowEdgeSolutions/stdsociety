@@ -34,7 +34,10 @@ const Navigation = () => {
     >
       <div className="max-w-content mx-auto px-6 lg:px-12">
         <div className="flex items-center justify-between py-4">
-          <span className="text-lg font-semibold text-foreground">StudioSociety</span>
+          <a href="/" className="flex items-center gap-3">
+            <img src="/logoweis.jpeg" alt="StudioSociety" className="h-10 w-auto rounded" />
+            <span className="text-lg font-semibold text-foreground">StudioSociety</span>
+          </a>
           
           <div className="hidden md:flex items-center gap-2">
             {navItems.map((item) => (
