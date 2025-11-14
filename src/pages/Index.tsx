@@ -1,4 +1,5 @@
 import Hero from "@/components/Hero";
+import Navigation from "@/components/Navigation";
 import Services from "@/components/Services";
 import Portfolio from "@/components/Portfolio";
 import Process from "@/components/Process";
@@ -12,6 +13,7 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Hero />
+      <Navigation />
       <Services />
       <Portfolio />
       <Process />
