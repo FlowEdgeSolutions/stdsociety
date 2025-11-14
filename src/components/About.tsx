@@ -56,7 +56,6 @@ const About = () => {
                 <p className="text-sm text-muted-foreground mb-1">Partner</p>
                 <a href="https://www.flowedge.de" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3">
                   <img src="/flowedgeLogo.png" alt="FlowEdge Solutions" className="h-9 w-auto rounded" />
-                  <span className="text-foreground">FlowEdge Solutions</span>
                 </a>
               </div>
             </div>
