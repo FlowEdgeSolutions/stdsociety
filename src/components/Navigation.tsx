@@ -8,7 +8,6 @@ const Navigation = () => {
     { label: "Leistungen", id: "services" },
     { label: "Portfolio", id: "portfolio" },
     { label: "Prozess", id: "process" },
-    { label: "Pakete", id: "packages" },
     { label: "Über uns", id: "about" },
     { label: "FAQ", id: "faq" },
     { label: "Kontakt", id: "contact" },
