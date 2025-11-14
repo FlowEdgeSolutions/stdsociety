@@ -29,7 +29,7 @@ const steps = [
 
 const Process = () => {
   return (
-    <section className="section-padding px-6 lg:px-12 bg-muted/30">
+    <section id="process" className="section-padding px-6 lg:px-12 bg-muted/30">
       <div className="max-w-content mx-auto">
         <div className="text-center mb-16 space-y-4">
           <h2 className="text-foreground">Unser Prozess</h2>

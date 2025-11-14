@@ -34,7 +34,7 @@ const faqs = [
 
 const FAQ = () => {
   return (
-    <section className="section-padding px-6 lg:px-12">
+    <section id="faq" className="section-padding px-6 lg:px-12">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-16 space-y-4">
           <h2 className="text-foreground">Häufige Fragen</h2>
