@@ -13,13 +13,13 @@ const Footer = () => {
 
           <div className="flex flex-col md:items-end gap-4">
             <div className="flex flex-wrap gap-6 text-sm">
-              <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
+              <a href="/impressum" className="text-muted-foreground hover:text-foreground transition-colors">
                 Impressum
               </a>
-              <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
+              <a href="/datenschutz" className="text-muted-foreground hover:text-foreground transition-colors">
                 Datenschutz
               </a>
-              <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
+              <a href="/agb" className="text-muted-foreground hover:text-foreground transition-colors">
                 AGB
               </a>
             </div>
