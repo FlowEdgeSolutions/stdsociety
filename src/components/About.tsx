@@ -54,7 +54,10 @@ const About = () => {
 
               <div className="border-t border-border/50 pt-6">
                 <p className="text-sm text-muted-foreground mb-1">Partner</p>
-                <p className="text-foreground">FlowEdge Solutions</p>
+                <a href="https://www.flowedge.de" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3">
+                  <img src="/flowedgeLogo.png" alt="FlowEdge Solutions" className="h-9 w-auto rounded" />
+                  <span className="text-foreground">FlowEdge Solutions</span>
+                </a>
               </div>
             </div>
           </div>
